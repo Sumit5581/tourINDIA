@@ -1,0 +1,168 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    --background: 40 33% 97%;
+    
+    --foreground: 220 30% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 30% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 30% 15%;
+
+    --primary: 27 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 145 63% 32%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 40 20% 92%;
+    --muted-foreground: 220 10% 45%;
+
+    --accent: 220 60% 30%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 40 15% 85%;
+    --input: 40 15% 85%;
+    --ring: 27 100% 50%;
+
+    --radius: 1rem;
+
+    --saffron: 27 100% 50%;
+    --india-green: 145 63% 32%;
+    --navy: 220 60% 30%;
+    --gold: 43 96% 56%;
+    --warm-white: 40 33% 97%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 27 100% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 40 20% 92%;
+    --sidebar-accent-foreground: 220 30% 15%;
+    --sidebar-border: 40 15% 85%;
+    --sidebar-ring: 27 100% 50%;
+  }
+
+  .dark {
+    --background: 220 30% 10%;
+    --foreground: 40 33% 97%;
+    --card: 220 30% 14%;
+    --card-foreground: 40 33% 97%;
+    --popover: 220 30% 14%;
+    --popover-foreground: 40 33% 97%;
+    --primary: 27 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 145 63% 32%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 220 20% 20%;
+    --muted-foreground: 40 15% 65%;
+    --accent: 220 60% 45%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 20% 22%;
+    --input: 220 20% 22%;
+    --ring: 27 100% 50%;
+    --sidebar-background: 220 30% 10%;
+    --sidebar-foreground: 40 33% 97%;
+    --sidebar-primary: 27 100% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 20% 20%;
+    --sidebar-accent-foreground: 40 33% 97%;
+    --sidebar-border: 220 20% 22%;
+    --sidebar-ring: 27 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .tricolor-gradient {
+    background: linear-gradient(
+      135deg,
+      hsl(var(--saffron)) 0%,
+      hsl(var(--saffron)) 33%,
+      hsl(0 0% 100%) 33%,
+      hsl(0 0% 100%) 66%,
+      hsl(var(--india-green)) 66%,
+      hsl(var(--india-green)) 100%
+    );
+  }
+
+  .tricolor-bar {
+    height: 4px;
+    background: linear-gradient(
+      90deg,
+      hsl(var(--saffron)) 0%,
+      hsl(var(--saffron)) 33%,
+      hsl(0 0% 100%) 33%,
+      hsl(0 0% 100%) 66%,
+      hsl(var(--india-green)) 66%,
+      hsl(var(--india-green)) 100%
+    );
+  }
+
+  .search-loading-bar {
+    height: 3px;
+    background: linear-gradient(
+      90deg,
+      hsl(var(--saffron)),
+      hsl(var(--gold)),
+      hsl(var(--india-green)),
+      hsl(var(--saffron))
+    );
+    background-size: 300% 100%;
+    animation: loading-sweep 1.5s ease-in-out infinite;
+  }
+
+  .hero-overlay {
+    background: linear-gradient(
+      to bottom,
+      hsla(220, 30%, 10%, 0.5) 0%,
+      hsla(220, 30%, 10%, 0.3) 40%,
+      hsla(220, 30%, 10%, 0.7) 100%
+    );
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 ease-out;
+  }
+  .card-hover:hover {
+    @apply -translate-y-2 shadow-xl;
+  }
+}
+
+@keyframes loading-sweep {
+  0% { background-position: 100% 0; }
+  100% { background-position: -100% 0; }
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 0 0 hsla(var(--saffron), 0.4); }
+  50% { box-shadow: 0 0 20px 6px hsla(var(--saffron), 0.2); }
+}
