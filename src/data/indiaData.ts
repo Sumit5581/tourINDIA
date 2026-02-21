@@ -181,7 +181,7 @@ export const places: Place[] = [
     name: "Agra Fort",
     city: "agra",
     description: "A historical fort and UNESCO World Heritage site. It was the main residence of the emperors of the Mughal Dynasty until 1638.",
-    image: "https://images.unsplash.com/photo-1585135497273-1a86d9d9e2e3?w=600",
+    image: "https://i.pinimg.com/1200x/0c/48/ee/0c48ee6e76fba8766c53183b14767aef.jpg",
     rating: 4.5,
     reviewCount: 4800,
     category: "Heritage",
