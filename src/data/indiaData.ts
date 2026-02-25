@@ -172,7 +172,7 @@ export const places: Place[] = [
     distanceFromCenter: "5 km",
     coordinates: { lat: 27.1751, lng: 78.0421 },
     reviews: [
-      { id: "r8", user: "Maria L.", rating: 5, comment: "No words can describe the beauty. A once-in-a-lifetime experience!", date: "2025-12-15" },
+      { id: "r8", user: "Maria L.", rating: 5, comment: "No words can describe the beauty.", date: "2025-12-15" },
       { id: "r9", user: "John D.", rating: 5, comment: "Best at sunrise. Absolutely breathtaking.", date: "2025-11-30" },
     ],
   },
@@ -188,7 +188,7 @@ export const places: Place[] = [
     distanceFromCenter: "3 km",
     coordinates: { lat: 27.1795, lng: 78.0211 },
     reviews: [
-      { id: "r10", user: "Ravi K.", rating: 4, comment: "Massive fort with great views of the Taj.", date: "2025-10-10" },
+      { id: "r10", user: "Ravi K.", rating: 4, comment: "A must-visit if you’re in Agra. The mix of palaces, halls, and gardens is stunning and worth the entry fee.", date: "2025-10-10" },
     ],
   },
   {
@@ -203,7 +203,7 @@ export const places: Place[] = [
     distanceFromCenter: "37 km",
     coordinates: { lat: 27.0945, lng: 77.6679 },
     reviews: [
-      { id: "r11", user: "Sneha G.", rating: 4, comment: "Fascinating ghost city with incredible architecture.", date: "2025-09-15" },
+      { id: "r11", user: "Sneha G.", rating: 4, comment: "Architecturally stunning and full of history. Buland Darwaza is massive and looks even better in real life.", date: "2025-09-15" },
     ],
   },
   {
