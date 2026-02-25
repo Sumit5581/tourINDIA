@@ -134,7 +134,7 @@ export const places: Place[] = [
     name: "Lotus Temple",
     city: "delhi",
     description: "A Bahá'í House of Worship, notable for its flowerlike shape. Open to all regardless of religion. Winner of numerous architecture awards.",
-    image: "https://images.unsplash.com/photo-1622310555776-03da06a64e6b?w=600",
+    image: "https://i.pinimg.com/1200x/bc/1a/ab/bc1aab025718dc99a9b53cc2de93f30d.jpg",
     rating: 4.5,
     reviewCount: 2100,
     category: "Temple",
