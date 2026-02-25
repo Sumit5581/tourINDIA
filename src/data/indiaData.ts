@@ -149,7 +149,7 @@ export const places: Place[] = [
     name: "Humayun's Tomb",
     city: "delhi",
     description: "The tomb of the Mughal Emperor Humayun. It was the first garden-tomb on the Indian subcontinent and inspired the Taj Mahal.",
-    image: "https://images.unsplash.com/photo-1585135497273-1a86d9d9e2e3?w=600",
+    image: "https://i.pinimg.com/1200x/a2/fd/5f/a2fd5f4ed67a773616e079f88053a153.jpg",
     rating: 4.5,
     reviewCount: 1700,
     category: "Heritage",
