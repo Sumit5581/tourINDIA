@@ -242,7 +242,7 @@ export const places: Place[] = [
     name: "Amber Fort",
     city: "jaipur",
     description: "A majestic fort overlooking Maota Lake. Known for its artistic Hindu-style elements and blend of Rajput and Mughal architecture.",
-    image: "https://images.unsplash.com/photo-1548013146-72479768bada?w=600",
+    image: "https://i.pinimg.com/1200x/c9/7f/9e/c97f9eff16bac9c88c16012150c73c2b.jpg",
     rating: 4.7,
     reviewCount: 4300,
     category: "Fort",
@@ -253,7 +253,7 @@ export const places: Place[] = [
     ],
   },
   {
-    id: "city-palace-jaipur",
+    id: "jal-mahal",
     name: "City Palace",
     city: "jaipur",
     description: "A complex of courtyards, gardens, and buildings blending Rajasthani and Mughal architecture. Still partially a royal residence.",
