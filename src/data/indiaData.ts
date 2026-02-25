@@ -254,7 +254,7 @@ export const places: Place[] = [
   },
   {
     id: "city-palace",
-    name: "City Palace",
+    name: "Jal Mahal",
     city: "jaipur",
     description: "A complex of courtyards, gardens, and buildings blending Rajasthani and Mughal architecture. Still partially a royal residence.",
     image: "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=600",
