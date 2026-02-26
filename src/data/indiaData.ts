@@ -43,7 +43,7 @@ export const cities: City[] = [
     name: "Agra",
     state: "Uttar Pradesh",
     description: "Home to the iconic Taj Mahal and Mughal heritage",
-    image: "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=600",
+    image: "https://i.pinimg.com/1200x/3f/ec/41/3fec41eb4039d7b1854844bf5790759a.jpg",
     placeCount: 4,
   },
   {
@@ -51,7 +51,7 @@ export const cities: City[] = [
     name: "Jaipur",
     state: "Rajasthan",
     description: "The Pink City known for forts, palaces and vibrant culture",
-    image: "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=600",
+    image: "https://i.pinimg.com/736x/8b/9e/2f/8b9e2f5588477e759765038861b5e3b4.jpg",
     placeCount: 5,
   },
   {
@@ -59,7 +59,7 @@ export const cities: City[] = [
     name: "Mumbai",
     state: "Maharashtra",
     description: "The city of dreams, Bollywood, and the Gateway of India",
-    image: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=600",
+    image: "https://i.pinimg.com/736x/f5/43/49/f54349c8390ba533e9ba21b5bb4cfa60.jpg",
     placeCount: 4,
   },
   {
@@ -67,7 +67,7 @@ export const cities: City[] = [
     name: "Varanasi",
     state: "Uttar Pradesh",
     description: "One of the oldest cities in the world, spiritual capital of India",
-    image: "https://i.pinimg.com/1200x/59/09/8f/59098fabd1513e48f7449ae89f057a7a.jpg",
+    image: "https://i.pinimg.com/1200x/76/62/ea/7662ea6d9fdc42914a68a2150fcd5969.jpg",
     placeCount: 4,
   },
   {
@@ -75,7 +75,7 @@ export const cities: City[] = [
     name: "Goa",
     state: "Goa",
     description: "Beaches, Portuguese heritage, and vibrant nightlife",
-    image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=600",
+    image: "https://i.pinimg.com/1200x/f7/e7/29/f7e72914fef0de3b5cd1bcf4298df252.jpg",
     placeCount: 4,
   },
 ];
