@@ -318,14 +318,14 @@ export const places: Place[] = [
     name: "Marine Drive",
     city: "mumbai",
     description: "A 3.6 km long boulevard along the South Mumbai coastline. Known as the Queen's Necklace due to its stunning night view.",
-    image: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=600",
+    image: "https://in.pinterest.com/pin/67413325666918437/",
     rating: 4.6,
     reviewCount: 4100,
     category: "Promenade",
     distanceFromCenter: "2 km",
     coordinates: { lat: 18.9432, lng: 72.8235 },
     reviews: [
-      { id: "r19", user: "Rajesh P.", rating: 5, comment: "Perfect for evening walks. The Queen's Necklace view is magical!", date: "2025-11-15" },
+      { id: "r19", user: "Rajesh P.", rating: 5, comment: "A peaceful seaside stretch where cool breezes, glowing city lights, and endless waves come together to create Mumbai’s most relaxing vibe.", date: "2025-11-15" },
     ],
   },
   {
@@ -333,14 +333,14 @@ export const places: Place[] = [
     name: "Elephanta Caves",
     city: "mumbai",
     description: "A UNESCO World Heritage Site featuring rock-cut cave temples dedicated to Lord Shiva, dating back to the 5th-8th centuries.",
-    image: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=600",
+    image: "https://in.pinterest.com/pin/105553185010203503/",
     rating: 4.3,
     reviewCount: 2800,
     category: "Heritage",
     distanceFromCenter: "10 km (by ferry)",
     coordinates: { lat: 18.9633, lng: 72.9315 },
     reviews: [
-      { id: "r20", user: "Meera J.", rating: 4, comment: "The ferry ride and caves are both wonderful!", date: "2025-10-25" },
+      { id: "r20", user: "Meera J.", rating: 4, comment: "A fascinating blend of history and art, where ancient rock-cut sculptures and peaceful surroundings make the short ferry trip totally worth it.", date: "2025-10-25" },
     ],
   },
   {
