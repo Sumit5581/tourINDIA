@@ -390,6 +390,21 @@ export const places: Place[] = [
     ],
   },
   {
+    id: "dashashwamedh-ghat",
+    name: "Dashashwamedh Ghat",
+    city: "varanasi",
+    description: "The main ghat in Varanasi on the Ganges. Famous for its spectacular evening Ganga Aarti ceremony.",
+    image: "https://i.pinimg.com/1200x/e6/6d/1e/e66d1edce8404629ac1a77fc9a3b67a2.jpg",
+    rating: 4.8,
+    reviewCount: 4200,
+    category: "Ghat",
+    distanceFromCenter: "0.5 km",
+    coordinates: { lat: 25.3046, lng: 83.0108 },
+    reviews: [
+      { id: "r23", user: "Tom H.", rating: 5, comment: "The evening Ganga Aarti is powerful and emotional, with chants, lamps, and devotion", date: "2025-11-28" },
+    ],
+  },
+  {
     id: "sarnath",
     name: "Sarnath",
     city: "varanasi",
