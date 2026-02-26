@@ -318,7 +318,7 @@ export const places: Place[] = [
     name: "Marine Drive",
     city: "mumbai",
     description: "A 3.6 km long boulevard along the South Mumbai coastline. Known as the Queen's Necklace due to its stunning night view.",
-    image: "https://in.pinterest.com/pin/297870962865809533/",
+    image: "https://in.pinterest.com/pin/297870962865809533",
     rating: 4.6,
     reviewCount: 4100,
     category: "Promenade",
