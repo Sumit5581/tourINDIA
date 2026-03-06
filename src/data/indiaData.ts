@@ -43,7 +43,7 @@ export const cities: City[] = [
     name: "Agra",
     state: "Uttar Pradesh",
     description: "Home to the iconic Taj Mahal and Mughal heritage",
-    image: "https://drive.google.com/file/d/186pJjUgxnWfsbaG_-JM1dUpeceKF8iZU/view?usp=sharing",
+    image: "https://i.pinimg.com/736x/77/c4/c8/77c4c85d41535d0f46c45502656db049.jpg",
     placeCount: 4,
   },
   {
