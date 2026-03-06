@@ -51,7 +51,7 @@ export const cities: City[] = [
     name: "Jaipur",
     state: "Rajasthan",
     description: "The Pink City known for forts, palaces and vibrant culture",
-    image: "https://i.pinimg.com/736x/8b/9e/2f/8b9e2f5588477e759765038861b5e3b4.jpg",
+    image: "https://i.pinimg.com/736x/76/c2/45/76c24517386fb119d832b11e8a252224.jpg",
     placeCount: 5,
   },
   {
