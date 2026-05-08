@@ -1,4 +1,4 @@
-# 🇮🇳 TourINDIA — Explore. Plan. Wander.
+# tourINDIA — Explore. Plan. Wander.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge" />
@@ -12,7 +12,7 @@
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 - [About the Project](#-about-the-project)
 - [Features](#-features)
@@ -30,15 +30,15 @@
 
 ---
 
-## 🏛️ About the Project
+## About the Project
 
 **TourINDIA** is a web application designed for tourists and travel enthusiasts who want to explore the rich cultural and historical heritage of India. Whether you're planning a weekend trip to Jaipur or a longer journey across multiple cities, TourINDIA helps you discover must-visit places, read reviews, view real photos, build a wishlist of preferred destinations, and get optimised travel directions — all within a beautifully crafted, patriotic interface.
 
 ---
 
-## ✨ Features
+## Features
 
-### 🔍 City Search with Animated Loading
+### City Search with Animated Loading
 - A prominent search bar allows users to search for any Indian city.
 - On typing a city name, a **smooth animated loading bar** plays to enhance the user experience and build anticipation.
 - Once results load, a **clickable city button** appears for the searched city.
