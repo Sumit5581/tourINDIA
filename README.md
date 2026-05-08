@@ -132,7 +132,7 @@ VITE_GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
 VITE_GOOGLE_PLACES_API_KEY=your_google_places_api_key_here
 ```
 
-> ⚠️ Never commit your `.env` file. It is already included in `.gitignore`.
+> Never commit your `.env` file. It is already included in `.gitignore`.
 
 ### Running the App
 
@@ -158,7 +158,7 @@ npm run preview
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 tourINDIA/
@@ -195,7 +195,7 @@ tourINDIA/
 
 ---
 
-## 🔎 Feature Details
+## Feature Details
 
 ### Search Flow
 
@@ -239,7 +239,7 @@ Ordered route displayed on map with distances and estimated time
 
 ---
 
-## 🎨 UI & Design Guidelines
+## UI & Design Guidelines
 
 | Element | Style |
 |---|---|
@@ -254,7 +254,7 @@ Ordered route displayed on map with distances and estimated time
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [x] Project setup with React + Vite
 - [ ] Hero section with patriotic design
