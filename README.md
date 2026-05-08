@@ -44,7 +44,7 @@
 - Once results load, a **clickable city button** appears for the searched city.
 - Clicking the city button reveals all tourist places within that city.
 
-### 🗺️ Tourist Place Discovery
+### Tourist Place Discovery
 - Displays a curated list of tourist destinations for the selected city.
 - Each place card shows:
   - Place name and short description
@@ -53,13 +53,13 @@
   - Star ratings and review count
   - Photo gallery / representative image
 
-### 📋 Real-Time Wishlist (My Travel List)
+### Real-Time Wishlist (My Travel List)
 - Users can add any tourist place to a **personal wishlist** with a single click.
 - The wishlist updates in **real time** without page reloads.
 - Users can remove places from the wishlist at any time.
 - The wishlist persists during the session and can optionally be saved.
 
-### 🧭 Optimised Route Directions
+### Optimised Route Directions
 - For places in the wishlist or selected destinations, the app calculates the **shortest travel route**.
 - Helps tourists plan their itinerary by minimising total travel distance and time.
 - Displays an ordered route so users know exactly which place to visit next.
