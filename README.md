@@ -64,14 +64,14 @@
 - Helps tourists plan their itinerary by minimising total travel distance and time.
 - Displays an ordered route so users know exactly which place to visit next.
 
-### 📸 Photos, Reviews & Ratings
+### Photos, Reviews & Ratings
 - Each tourist place has a dedicated page/modal with:
   - Multiple **high-quality photos** of the location.
   - **User ratings** displayed as star scores with aggregate counts.
   - **Written reviews** from other travellers.
 - A dedicated **Review Section** allows users to write and submit their own reviews for any location.
 
-### 🎨 Patriotic & Polished UI
+### Patriotic & Polished UI
 - The overall theme is **patriotic Indian aesthetics** — inspired by the colours of the Indian flag (saffron, white, and India green) with accents of navy and gold.
 - All buttons feature:
   - **Rounded edges** (pill or softly rounded corners).
@@ -80,7 +80,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -98,7 +98,7 @@
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
